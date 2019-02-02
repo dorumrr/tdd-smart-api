@@ -1,0 +1,32 @@
+{
+  "name": "tdd-smart-api",
+  "version": "1.0.5",
+  "description": "A TDD Plug&Play API that requires no endpoints writing.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorumrr/tdd-smart-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "restify",
+    "mysql"
+  ],
+  "author": "Doru Moraru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dorumrr/tdd-smart-api/issues"
+  },
+  "homepage": "https://github.com/dorumrr/tdd-smart-api#readme",
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "restify": "4.3.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
